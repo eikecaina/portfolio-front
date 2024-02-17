@@ -8,7 +8,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
         <p className="text-content pt-4 font-light">{description}</p>
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
-          Tech Stack : <span className="font-light">{techstack}</span>
+          Tecnologias : <span className="font-light">{techstack}</span>
         </h3>
         <div className="flex justify-between items-center mt-5">
           <div className="flex items-center">
@@ -39,7 +39,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
-              Live Preview
+              Preview projeto
             </a>
           </div>
           <div className="flex items-center">
@@ -64,7 +64,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               rel="noreferrer noopener"
               className="underline pl-2 font-light dark:text-white"
             >
-              View Code
+              Preview código
             </a>
           </div>
         </div>
