@@ -10,8 +10,8 @@ function App() {
   return (
     <Router>
       <Header />
-      <Route path="https://eikecaina.github.io/portfolio-front/" element={<Home />} />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
